@@ -9,16 +9,16 @@ document.getElementById('login-button').addEventListener('click', function () {
     const userPassword = passwordInput.value;
 
     // Passwor Setup 
-    if (userEmail == 'j.n.erfan420@gmail.com' && userPassword == 'imerfan') {
+    if (userEmail == 'j.n.erfan@gmail.com' && userPassword == 'imerfan') {
         window.location.href = 'ourbank.html';
         alert(" Login Sucsecfull. Click OK ")
     }
 
-    else if (userEmail != 'j.n.erfan420@gmail.com' && userPassword == 'imerfan') {
+    else if (userEmail != 'j.n.erfan@gmail.com' && userPassword == 'imerfan') {
         alert('Your Email Is Incorect. Please Enter Valid Email.')
     }
 
-    else if (userEmail == 'j.n.erfan420@gmail.com' && userPassword != 'imerfan') {
+    else if (userEmail == 'j.n.erfan@gmail.com' && userPassword != 'imerfan') {
         alert('Your Password Is Incorect. Please Enter Valid Password.')
     }
 
